@@ -31,7 +31,13 @@ npm install markdown-it-enml-todo --save
 const md = require('markdown-it')()
   .use(require('markdown-it-enml-todo'))
 
-md.render(/*...*/)
+const enml = md.render('- [x] task 1\n- [ ] task 2')
+
+// enml is:
+// <ul class="task-list">
+// <li class="task-list-item"><en-todo checked="true"></en-todo> task 1</li>
+// <li class="task-list-item"><en-todo></en-todo> task 2</li>
+// </ul>
 ```
 
 ## License
