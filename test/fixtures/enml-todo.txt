@@ -1,0 +1,101 @@
+should not render todos without list
+.
+[ ] unchecked item 1
+[ ] unchecked item 2
+[x] checked item 3
+.
+<p>[ ] unchecked item 1
+[ ] unchecked item 2
+[x] checked item 3</p>
+.
+
+should render todos with unordered list
+.
+- [ ] unchecked item 1
+- [ ] unchecked item 2
+- [x] checked item 3
+.
+<ul class="task-list">
+<li class="task-list-item"><en-todo></en-todo> unchecked item 1</li>
+<li class="task-list-item"><en-todo></en-todo> unchecked item 2</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> checked item 3</li>
+</ul>
+.
+
+should render todos with ordered list
+.
+1. [ ] unchecked ordered 1
+2. [ ] unchecked ordered 2
+3. [x] checked ordered 3
+.
+<ol class="task-list">
+<li class="task-list-item"><en-todo></en-todo> unchecked ordered 1</li>
+<li class="task-list-item"><en-todo></en-todo> unchecked ordered 2</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> checked ordered 3</li>
+</ol>
+.
+
+should only render valid todos
+.
+-   [ ] unchecked todo item 1
+- [  ] not a todo item 2
+- [ x] not a todo item 3
+- [x ] not a todo item 4
+- [ x ] not a todo item 5
+-   [x] checked todo item 6
+.
+<ul class="task-list">
+<li class="task-list-item"><en-todo></en-todo> unchecked todo item 1</li>
+<li>[  ] not a todo item 2</li>
+<li>[ x] not a todo item 3</li>
+<li>[x ] not a todo item 4</li>
+<li>[ x ] not a todo item 5</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> checked todo item 6</li>
+</ul>
+.
+
+should render todos with nested list
+.
+# Test 1
+
+1. foo
+   * [ ] nested unchecked item 1
+   * not a todo item 2
+   * not a todo item 3
+   * [x] nested checked item 4
+2. bar
+3. baz
+
+# Test 2
+
+- foo
+  - [ ] nested unchecked item 1
+  - [ ] nested unchecked item 2
+  - [x] nested checked item 3
+  - [X] nested checked item 4
+.
+<h1>Test 1</h1>
+<ol>
+<li>foo
+<ul class="task-list">
+<li class="task-list-item"><en-todo></en-todo> nested unchecked item 1</li>
+<li>not a todo item 2</li>
+<li>not a todo item 3</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> nested checked item 4</li>
+</ul>
+</li>
+<li>bar</li>
+<li>baz</li>
+</ol>
+<h1>Test 2</h1>
+<ul>
+<li>foo
+<ul class="task-list">
+<li class="task-list-item"><en-todo></en-todo> nested unchecked item 1</li>
+<li class="task-list-item"><en-todo></en-todo> nested unchecked item 2</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> nested checked item 3</li>
+<li class="task-list-item"><en-todo checked="true"></en-todo> nested checked item 4</li>
+</ul>
+</li>
+</ul>
+.

@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+  - "5"
+  - "4"
+script:
+  - npm run coveralls
+after_script:
+  - cat coverage/lcov.info | coveralls
+matrix:
+  fast_finish: true

@@ -1,0 +1,46 @@
+{
+  "name": "markdown-it-enml-todo",
+  "version": "1.0.0",
+  "description": "ENML todo (<en-todo />) tag plugin for markdown-it markdown parser",
+  "license": "MIT",
+  "repository": "akuma/markdown-it-enml-todo",
+  "author": "Weijia Huang <ihuangwj@gmail.com>",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "xo",
+    "test": "npm run lint && mocha",
+    "coveralls": "nyc --reporter=lcov --reporter=text npm test",
+    "prepublish": "npm test"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin",
+    "todo",
+    "task",
+    "enml",
+    "evernote"
+  ],
+  "devDependencies": {
+    "coveralls": "*",
+    "markdown-it": "^7.0.0",
+    "markdown-it-testgen": "^0.1.4",
+    "mocha": "*",
+    "nyc": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": ["node", "mocha"],
+    "space": 2,
+    "semicolon": false
+  }
+}
