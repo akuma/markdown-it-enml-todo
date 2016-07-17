@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-enml-todo",
   "version": "1.0.0",
-  "description": "ENML todo (<en-todo />) tag plugin for markdown-it markdown parser",
+  "description": "ENML (Evernote Markup Language) todo (`<en-todo />`) tag plugin for markdown-it markdown parser",
   "license": "MIT",
   "repository": "akuma/markdown-it-enml-todo",
   "author": "Weijia Huang <ihuangwj@gmail.com>",
