@@ -5,7 +5,6 @@
   "license": "MIT",
   "repository": "akuma/markdown-it-enml-todo",
   "author": "Weijia Huang <ihuangwj@gmail.com>",
-  "main": "index.js",
   "engines": {
     "node": ">=4"
   },
@@ -16,9 +15,7 @@
     "prepublish": "npm test"
   },
   "files": [
-    "index.js",
-    "LICENSE",
-    "README.md"
+    "index.js"
   ],
   "keywords": [
     "markdown",
