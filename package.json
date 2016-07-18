@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-enml-todo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ENML (Evernote Markup Language) todo (`<en-todo />`) tag plugin for markdown-it markdown parser",
   "license": "MIT",
   "repository": "akuma/markdown-it-enml-todo",
