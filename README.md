@@ -42,4 +42,4 @@ const result = md.render('- [x] task 1\n- [ ] task 2')
 
 ## License
 
-(MIT)[LICENSE]
+[MIT](LICENSE)
