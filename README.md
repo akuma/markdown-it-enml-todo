@@ -6,7 +6,7 @@
 [![Dependency Status][david-image]][david-url]
 [![Dependency Status][david-dev-image]][david-dev-url]
 
-[npm-image]: https://img.shields.io/npm/v/markdown-it-enml-todo.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/markdown-it-enml-todo.svg
 [npm-url]: https://npmjs.org/package/markdown-it-enml-todo
 [build-image]: https://travis-ci.org/akuma/markdown-it-enml-todo.svg?branch=master
 [build-url]: https://travis-ci.org/akuma/markdown-it-enml-todo
