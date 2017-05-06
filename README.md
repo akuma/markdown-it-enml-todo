@@ -1,5 +1,7 @@
 # markdown-it-enml-todo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akuma/markdown-it-enml-todo.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build Status][build-image]][build-url]
 [![Coverage Status][coverage-image]][coverage-url]
