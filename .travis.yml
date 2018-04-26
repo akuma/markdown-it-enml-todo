@@ -3,6 +3,7 @@ node_js:
   - "6"
   - "5"
   - "4"
+  - "10"
 script:
   - npm run coveralls
 after_script:
