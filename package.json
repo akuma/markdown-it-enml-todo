@@ -31,7 +31,7 @@
     "markdown-it": "^8.0.0",
     "markdown-it-testgen": "^0.1.4",
     "mocha": "*",
-    "nyc": "*",
+    "nyc": ">=14.1.0",
     "xo": "*"
   },
   "xo": {
