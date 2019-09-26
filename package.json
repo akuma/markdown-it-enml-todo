@@ -32,7 +32,7 @@
     "markdown-it-testgen": "^0.1.4",
     "mocha": "*",
     "nyc": "*",
-    "xo": "*"
+    "xo": ">=0.25.3"
   },
   "xo": {
     "esnext": true,
