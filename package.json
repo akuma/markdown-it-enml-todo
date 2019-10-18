@@ -30,7 +30,7 @@
     "coveralls": "*",
     "markdown-it": "^8.0.0",
     "markdown-it-testgen": "^0.1.4",
-    "mocha": "*",
+    "mocha": ">=6.2.2",
     "nyc": "*",
     "xo": "*"
   },
