@@ -27,7 +27,7 @@
     "evernote"
   ],
   "devDependencies": {
-    "coveralls": "*",
+    "coveralls": ">=3.0.14",
     "markdown-it": "^8.0.0",
     "markdown-it-testgen": "^0.1.4",
     "mocha": "*",
